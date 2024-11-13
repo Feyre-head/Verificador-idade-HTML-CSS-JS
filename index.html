@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=M+PLUS+1+Code:wght@100..700&family=Outfit:wght@100..900&family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          Ano de Nascimento:
+          <input type="number" name="txtano" id="txtano" min="0" />
+        </p>
+        <p>
+          Sexo:
+          <input type="radio" name="radsex" id="mas" checked />
+          <label for="mas">Masculino</label>
+          <input type="radio" name="radsex" id="fem" />
+          <label for="fem">Feminino</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar()" />
+        </p>
+      </div>
+      <div id="res">Preencha os dados acima para ver o resultado!</div>
+    </section>
+    <footer><p>&copy; Feyre</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

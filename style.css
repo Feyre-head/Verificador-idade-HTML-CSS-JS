@@ -1,0 +1,41 @@
+body {
+  background-color: #6ba3be;
+  font: normal 15pt Arial;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #032f30;
+}
+
+header {
+  color: #032f30;
+  text-align: center;
+}
+
+input {
+  border-radius: 50px;
+  border-color: #032f30;
+  height: 20px;
+  background-color: #6ba2be43;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 5px 2px #032f30a2;
+}
+
+#res {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+    margin-top: 15px; font-size: 11px; text-align: center;
+}
+
+/*#031716 #032F30 #0A7075 #0C969C #6BA3BE #275D60 */
